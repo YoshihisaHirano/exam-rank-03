@@ -1,7 +1,7 @@
-# exam-rank-03ssignment name  : mini_paint
+Assignment name  : mini_paint
+
 Expected files   : *.c *.h
 Allowed functions: fopen, fread, fscanf, fclose, write, malloc, calloc, realloc, free, memset, powf, sqrtf
---------------------------------------------------------------------------------------
 
 Write a program that will read an "operation file" and print the result in the terminal
 
