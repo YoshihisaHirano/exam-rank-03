@@ -54,12 +54,12 @@ but also:
 	A pixel with a top left corner with a distance bigger or equal than 1 from the border of a circle is not part of an empty circle 
 		A pixel with a top left corner with a distance lower than 1 from the border of a circle is part of an empty circle.
 
-		You should look at the image while reading the next few lines. It represents a terminal. We've set a draw zone of WIDTH 5 and HEIGHT 3.
-		We've wrote different character to help you understand the following explanations.
+You should look at the image while reading the next few lines. It represents a terminal. We've set a draw zone of WIDTH 5 and HEIGHT 3.
+We've wrote different character to help you understand the following explanations.
 		- If you want to draw the operation: C 1.5 1.5 1 0 @ (the pink circle)
 		-- it means that the characters 'b', 'c', 'B', 'C' in the image will be replaced by '@'
 
-		You should find our_mini_paint to help you test yours with some operation_file.example
+You should find our_mini_paint to help you test yours with some operation_file.example
 
 		Hint:
 		If you've got 2 points are defined as (Xa,Ya) and (Xb,Yb)
