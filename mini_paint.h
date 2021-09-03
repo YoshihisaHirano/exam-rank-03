@@ -4,13 +4,14 @@
 #include <stdlib.h>
 #include <unistd.h>
 #include <string.h>
+#include <math.h>
 #define FILE_ERROR "Error: Operation file corrupted\n"
 
 typedef struct s_cmd
 {
 	struct s_cmd	*next;
 	char			chr;
-	int				type; //1 - c, 2 - C
+	char			type;
 	float			rad; // > 0
 	float 			x;
 	float			y;
@@ -27,5 +28,6 @@ typedef struct s_set
 
 int		ft_strlen(char *str);
 void	print_drawzone(t_set *set);
+void	free_lst(t_cmd *head);
 
 #endif

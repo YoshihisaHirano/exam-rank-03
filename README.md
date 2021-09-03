@@ -8,11 +8,11 @@ Write a program that will read an "operation file" and print the result in the t
 Your program must take one argument, it will be the path to the "operation file"
 If 0 or more than 1 argument is given to your program write "Error: argument" followed by a \n in STDOUT
 
-$> ./mini_paint | cat -e
-Error: argument$
-$> ./mini_paint do not fear mathematics | cat -e
-Error: argument$
-$> 
+	$> ./mini_paint | cat -e
+	Error: argument$
+	$> ./mini_paint do not fear mathematics | cat -e
+	Error: argument$
+	$> 
 
 If any problem occurs while you open and/or read the "operation file" write "Error: Operation file corrupted" followed by a \n in STDOUT
 
@@ -61,7 +61,7 @@ We've wrote different character to help you understand the following explanation
 
 You should find our_mini_paint to help you test yours with some operation_file.example
 
-		Hint:
-		If you've got 2 points are defined as (Xa,Ya) and (Xb,Yb)
-		You can get the distance between the two points with this formula: srqt((Xa - Xb) * (Xa - Xb) + (Ya - Yb) * (Ya - Yb))
+	Hint:
+	If you've got 2 points are defined as (Xa,Ya) and (Xb,Yb)
+	You can get the distance between the two points with this formula: srqt((Xa - Xb) * (Xa - Xb) + (Ya - Yb) * (Ya - Yb))
 

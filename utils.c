@@ -35,3 +35,18 @@ void print_drawzone(t_set *set)
 	}
 	free(set->drawzone);
 }
+
+void	free_lst(t_cmd *head)
+{
+	t_cmd	*temp;
+
+	if (!head)
+		return ;
+	while (head->next)
+	{
+		temp = head;
+		head = head->next;
+		free(temp);
+	}
+	free(head);
+}
