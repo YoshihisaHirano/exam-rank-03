@@ -12,7 +12,7 @@ typedef struct s_cmd
 	struct s_cmd	*next;
 	char			chr;
 	char			type;
-	float			rad; // > 0
+	float			rad;
 	float 			x;
 	float			y;
 } t_cmd;
